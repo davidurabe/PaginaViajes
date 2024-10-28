@@ -1,0 +1,43 @@
+<div  class="row center align-items-center">
+<div>
+  <div class="image-container col-4">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div *ngFor="let photo of photos; let i = index" [class]="i === 0 ? 'carousel-item active' : 'carousel-item'">
+          <img class="d-block w-100" [src]="photo.src" [alt]="photo.alt">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div>
+  <div class="image-container col-4">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div *ngFor="let photo of photos; let i = index" [class]="i === 0 ? 'carousel-item active' : 'carousel-item'">
+          <img class="d-block w-100" [src]="photo.src" [alt]="photo.alt">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div>
+  <div class="image-container col-4">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div *ngFor="let photo of photos; let i = index" [class]="i === 0 ? 'carousel-item active' : 'carousel-item'">
+          <img class="d-block w-100" [src]="photo.src" [alt]="photo.alt">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+
+<section>
+
