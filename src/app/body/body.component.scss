@@ -3,7 +3,7 @@
     width: 100%;
     max-width: 400px; /* Ajusta el ancho máximo si lo deseas */
   }
-  
+
   .image {
     width: 100%;
     height: auto;
@@ -19,6 +19,10 @@
     padding: 10px;
     border-radius: 5px;
     text-align: center; /* Centra el texto si es multilinea */
+  }
+
+  .body-color {
+    background-color: #2ecc71
   }
   
   

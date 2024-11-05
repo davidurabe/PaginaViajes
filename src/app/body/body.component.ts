@@ -10,9 +10,10 @@ import { CommonModule } from '@angular/common';
 })
 export class BodyComponent {
   photos = [
-    { src: 'assets/Malzahar_0.jpg', alt: 'Malzahar', text:'heraldo del vacio'},
-    { src: 'assets/swain.png', alt: 'swain', text:'poder sobre fuerza'},
-    { src: 'assets/urabe.png', alt: 'urabe', text:'urabe :3'},
+    { src: 'assets/bariloche1.jpg', alt: 'Malzahar', text:'heraldo del vacio'},
+    { src: 'assets/bariloche2.jpg', alt: 'swain', text:'poder sobre fuerza'},
+    { src: 'assets/bariloche3.jpg', alt: 'urabe', text:'urabe :3'},
+    { src: 'assets/bariloche4.jpg', alt: 'urabe', text:'urabe :3'},
    
   ]
 
