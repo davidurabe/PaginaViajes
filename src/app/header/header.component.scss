@@ -1,16 +1,32 @@
 header{
-    background-color: #2be522; 
-    
-    height: 150px;
-    margin-bottom: 50px;
+    height: 100px;
 }
-h4{
-     color: whitesmoke;
+#logo{
+    width: 250px;
+    position: relative;
+    top: 50%;transform: translate(-50%);
+    z-index: 1;
+}
+.navbar{
+    position:fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background-color: #2be522;
+    height: 100px;
 }
 button{
     background-color: #ffffff00;
     font-size: 25px;
 }
-.header-color{
-    background-color: #2be522;
+a{
+    color: whitesmoke;
+}
+li{
+    font-size:20px;
+    transition: 0.5s;
+}
+li:hover{
+    font-size: 25px;
 }
