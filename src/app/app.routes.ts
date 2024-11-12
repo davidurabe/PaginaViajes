@@ -7,7 +7,7 @@ import { HeaderComponent } from './header/header.component';
 
 
 export const routes: Routes = [
-    {path: '', redirectTo: '/body', pathMatch:'full'},
+    {path: '', redirectTo: 'body', pathMatch:'full'},
     {path: 'body', component: BodyComponent},
     {path: 'footer', component:FooterComponent},
     {path: 'photo-galery', component: PhotoGaleryComponent},
@@ -15,4 +15,5 @@ export const routes: Routes = [
 
     
 ];
+
 export const appRoutingProviders = [ provideRouter(routes)]

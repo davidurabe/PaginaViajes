@@ -6,6 +6,8 @@ import { FooterComponent } from "./footer/footer.component";
 import { PhotoGaleryComponent } from './photo-galery/photo-galery.component';
 import { CommonModule } from '@angular/common';
 import {ActivatedRoute, NavigationEnd, Router} from '@angular/router';
+
+
 @Component({
   selector: 'app-root',
   standalone: true,
@@ -14,7 +16,7 @@ import {ActivatedRoute, NavigationEnd, Router} from '@angular/router';
     BodyComponent, 
     FooterComponent,
   PhotoGaleryComponent,
-CommonModule ],
+CommonModule, ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
