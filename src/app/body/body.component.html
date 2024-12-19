@@ -1,83 +1,49 @@
-
-<div class="body-color">
-<div class="container">
-  
-  <div class="row justify-content-around">
-    <div class="col-md-4">
-      <div class="image-container">
-        <div
-          id="carouselExampleSlidesOnly"
-          class="carousel slide"
-          data-ride="carousel"
-        >
-          <div class="carousel-inner">
-            <div
-              *ngFor="let photo of photos; let i = index"
-              [class]="i === 0 ? 'carousel-item active' : 'carousel-item'"
-            >
-              <img class="d-block w-100" [src]="photo.src" [alt]="photo.alt" />
-              <div style="background-color: #a5e3e7; padding: 20px">
-                <h2>Urabe</h2>
-                <p>¡Claro! El Vacío en el universo de League of Legends es una región misteriosa y aterradora conocida como "La nada incognoscible". Es una manifestación de la nada más allá de Runaterra, la dimensión principal del juego1. Aquí tienes un resumen:
-
-                  Origen: El Vacío existió desde el nacimiento del universo. Es una fuerza con una hambre insaciable, esperando pacientemente a que sus amos, los misteriosos Vigilantes, marquen el momento de la destrucción definitiva2.
-                  
-                  </p>
-              </div>
-            </div>
-          </div>
+<div  class="row center align-items-center">
+<div>
+  <div class="image-container col-4">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div *ngFor="let photo of photos; let i = index" [class]="i === 0 ? 'carousel-item active' : 'carousel-item'">
+          <img class="d-block w-100" [src]="photo.src" [alt]="photo.alt">
+          <h2>Urabe</h2>
+          <p>mona china</p>
         </div>
       </div>
     </div>
-
-    <div class="col-md-4">
-      <div class="image-container">
-        <div
-          id="carouselExampleSlidesOnly"
-          class="carousel slide"
-          data-ride="carousel"
-        >
-          <div class="carousel-inner">
-            <div
-              *ngFor="let photo of photos; let i = index"
-              [class]="i === 0 ? 'carousel-item active' : 'carousel-item'"
-            >
-              <img class="d-block w-100" [src]="photo.src" [alt]="photo.alt"  
-              />
-              <div style="background-color: #a5e3e7; padding: 20px">
-              <h2>vacio</h2>
-              <p>es morado y oscuro</p>
-            </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-md-4">
-      <div class="image-container">
-        <div
-          id="carouselExampleSlidesOnly"
-          class="carousel slide"
-          data-ride="carousel"
-        >
-          <div class="carousel-inner">
-            <div
-              *ngFor="let photo of photos; let i = index"
-              [class]="i === 0 ? 'carousel-item active' : 'carousel-item'"
-            >
-              <img class="d-block w-100" [src]="photo.src" [alt]="photo.alt" />
-              <div style="background-color: #a5e3e7; padding: 20px">
-              <h2 class="title text-center">Swain</h2>
-              <p>poderoso asombroso</p>
-            </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
   </div>
+</div>
 
+<div>
+  <div class="image-container col-4">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div *ngFor="let photo of photos; let i = index" [class]="i === 0 ? 'carousel-item active' : 'carousel-item'">
+          <img class="d-block w-100" [src]="photo.src" [alt]="photo.alt">
+          <h2>vacio</h2>
+          <p>es morado y oscuro</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div>
+  <div class="image-container col-4">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div *ngFor="let photo of photos; let i = index" [class]="i === 0 ? 'carousel-item active' : 'carousel-item'">
+          <img class="d-block w-100" [src]="photo.src" [alt]="photo.alt">
+          <h2 class="title text-center">Swain</h2>
+          <p>poderoso asombroso</p>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 </div>
+
+
+
+
+<section>
+

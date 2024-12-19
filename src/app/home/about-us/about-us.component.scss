@@ -1,0 +1,14 @@
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.card{
+    width: 90%;
+    background-color: #bef4d4;
+}
+.card img{
+    height: 100%;
+}
