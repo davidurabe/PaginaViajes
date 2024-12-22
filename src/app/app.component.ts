@@ -5,16 +5,19 @@ import { BodyComponent } from "./body/body.component";
 import { FooterComponent } from "./footer/footer.component";
 import { CommonModule } from '@angular/common';
 import { AboutUsComponent } from './home/about-us/about-us.component';
+import { PhotoGaleryComponent } from "./photo-galery/photo-galery.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, 
-    HeaderComponent, 
-    BodyComponent, 
+  imports: [
+    HeaderComponent,
+    BodyComponent,
     FooterComponent,
-  AboutUsComponent,
-CommonModule ],
+    AboutUsComponent,
+    CommonModule,
+    
+],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })

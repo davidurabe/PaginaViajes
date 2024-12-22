@@ -1,12 +1,12 @@
 .image-container {
-    position: relative;
+    
     width: 100%;
-    max-width: 400px; /* Ajusta el ancho máximo si lo deseas */
+    max-width: 600px; 
   }
   
   .image {
     width: 100%;
-    height: auto;
+    height: 500px;
   }
   
   .overlay-text {
@@ -18,7 +18,20 @@
     background-color: rgba(0, 0, 0, 0.5);
     padding: 10px;
     border-radius: 5px;
-    text-align: center; /* Centra el texto si es multilinea */
+    text-align: center; 
   }
+.descr{
+  background-color: aquamarine;
+  font-family: cursive;
   
+}
+.carousel-item img {
+  width: 100%;
+  height: auto;
+  max-width: 500px;
+  max-height: 500px;
+  object-fit: cover;
+}
+  
+
   
