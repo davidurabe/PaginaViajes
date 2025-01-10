@@ -1,12 +1,21 @@
-.footer {
-    background-color: whitesmoke;
-}
-.copy{
+
+.footer-body {
     background-color: black;
-    color: #fff
-}
-footer {
-    background-color: whitesmoke;
     flex-wrap: wrap;
-    color: black;
+    color: whitesmoke;
+}
+.logo{
+    width: 100%;
+    height: 100px;
+    filter: invert(100%);
+}
+.map-container{
+    width: 100%;
+    background-color: whitesmoke;
+    margin: 5% 0;
+    text-align: center;
+    padding-top: 20px;
+}
+.titulo{
+    font-size: 20px;
 }

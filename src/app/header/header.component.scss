@@ -1,55 +1,97 @@
+nav {
+    background: #A0D7BB;
+}
 
-nav{
-    background: #2ecc71;
-    color: white;
+.menu-desplegable {
+    display: none;
 }
-a{
-    color: white;
-    text-decoration: none;
+
+a {
+    color: black;
+    font-size: 15px;
 }
-nav img{
+
+.navbar-logo {
     top: -30px;
     position: absolute;
     z-index: 99;
     background: whitesmoke;
     border-radius: 50%;
-    border: solid 10px #2ecc71;
+    border: solid 10px var(--color-1);
 }
-.header-banner{
-    position: relative;
-    background-image: url(../../../public/assets/header-banner.png);
-    height: 600px;
+
+.welcome-page {
     width: 100%;
-    background-repeat: round;
-    background-size: cover;
-}
-.welcome-page{
+    height: 600px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
 }
-.welcome-page img{
-    margin-top: 10vh;
+
+.welcome-page img {
     width: 50%;
 }
-.text{
+
+.eslogan {
     font-size: 30px;
     font-weight: 500;
 }
-button{
-    background-color: #ffffff00;
+
+button {
+    background-color: transparent;
     font-size: 25px;
 }
-.whatsapp-button { 
-    position: fixed; 
-    bottom: 20px; 
-    right: 20px; 
-    z-index: 1000;
- } 
 
-.whatsapp-button img { 
-    width: 40px; 
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.whatsapp-button img {
+    width: 40px;
     border-radius: 50%;
+}
+
+.dropdown-menu {
+    background-color: var(--color-1);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 991px) {
+    .menu-desplegable {
+        display: flex;
+    }
+    .welcome-page img{
+        width: 80%;
+    }
+}
+
+@media (max-width: 575px) {
+    .redes {
+        display: none !important;
+    }
+    
+    .menu-desplegable {
+        display: none;
+    }
+    
+    nav {
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .navbar-logo {
+        position: static;
+        margin: 0 auto;
+        transform: none;
+    }
+    .eslogan{
+        font-size: 20px;
+    }
 }

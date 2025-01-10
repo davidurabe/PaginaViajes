@@ -1,0 +1,61 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+section{
+  font-family: "Comfortaa", 'Lucida Sans', sans-serif;
+}
+.section-title{
+  text-align: center;
+  color:white;
+  margin: 10px auto;
+  padding: 10px;
+  width: fit-content;
+}
+.image-container {
+  width: 100%;
+  max-width: 400px; /* Ajusta el ancho máximo de la tarjeta */
+  overflow: hidden;
+  height: auto;
+  max-height: 600px;
+  padding: 10px 0;
+  border: solid 1px black;
+  border-radius: 10px;
+  background-color: whitesmoke;
+}
+.contenedor-carusel{
+  padding: 5px 0;
+}
+.carousel-img {
+  object-fit: contain;  /* Las imágenes cubrirán el área de la tarjeta */
+  height: 300px;  /* Ajusta la altura según tus necesidades */
+  padding: 0 5px;
+}
+
+.card-text{
+  overflow-y: auto;
+  text-align: justify;
+  max-height: 200px !important;
+  padding: 5px 10px;
+}
+.card-body{
+  width: 100%;
+}
+hr{
+  margin: 2px 0;
+}
+@media (max-width: 992px){
+  .image-container{
+    margin: 10px 0;
+  }
+  .card-title{
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .carousel-img{
+    height: 200px;
+  }
+  .card-text{
+    font-size: 10px;
+  }
+}

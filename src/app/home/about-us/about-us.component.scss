@@ -1,4 +1,4 @@
-section{
+/* section{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -7,8 +7,76 @@ section{
 }
 .card{
     width: 90%;
-    background-color: #bef4d4;
+    background-color: #daf1e2;
 }
-.card img{
-    height: 100%;
+.card-img{
+    height: 90%;
+    width: 95%;
+    margin: 0 auto;
+} */
+section{
+    font-family: "Comfortaa", serif;
+}
+.presentacion{
+    background-color: var(--color-1);
+    padding: 10px;
+    width: 100%;
+    margin: 0 auto;
+ }
+ .subtitle{
+    font-size: 30px;
+    font-weight: 600;
+ }
+.text{
+    padding: 0 5px;
+    text-align: justify;
+}
+.informacion-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: whitesmoke;
+    padding: 10px 0;
+}
+.card{
+    width: 80%;
+    margin: 10px auto;
+    background-color: rgba(245, 245, 245, 0);
+    border: none !important;
+}
+.card-img{
+    border: solid 1px black;
+}
+.card-body{
+    background-color: var(--bg-color-1);
+    border: solid 1px var(--color-1);
+    border-radius: 10px;
+}
+.card-title{
+    color: var(--color-3);
+}
+@media (max-width:992px){
+
+    
+    .presentacion{
+        margin-top: 10px;
+    }
+    
+    .card-body{
+        margin: 10px 0;
+    }
+    .card-img{
+        width: 70%;
+    }
+    .img-team{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .subtitle{
+        font-size: 25px;
+        font-weight: 600;
+     }
+     .text{
+        font-size: 15px;
+     }
 }

@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from './header/header.component';
-import { BodyComponent } from "./body/body.component";
+
 import { FooterComponent } from "./footer/footer.component";
 import { CommonModule } from '@angular/common';
 import { AboutUsComponent } from './home/about-us/about-us.component';
-import { PhotoGaleryComponent } from "./photo-galery/photo-galery.component";
+import { BodyComponent } from './home/viajes/body.component';
 
 @Component({
   selector: 'app-root',

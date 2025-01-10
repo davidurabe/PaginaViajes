@@ -1,0 +1,60 @@
+<h2 class="section-title " id="Servicio">EXPERIENCIAS Y RECUERDOS</h2>
+
+<section class="row align-items-top justify-content-around contenedor-carusel" style="width:100%;">
+
+  <div class="image-container col-md-3">
+    <div id="carouselExampleSlidesOnly1" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div *ngFor="let photo2 of photos2; let i = index" [class]="i === 0 ? 'carousel-item active' : 'carousel-item'">
+          <img class="d-block w-100 carousel-img" [src]="photo2.src" [alt]="photo2.alt" />
+          <div class="card-body">
+            <hr/>
+            <h2 class="card-title text-center">Bariloche</h2>
+            <p class="card-text descripcion">
+              Durante nuestra instancia recorrimos el centro de la ciudad famoso por su arquitectura alpina y sus chocoleterias.
+            <br/>Visitamos el Cerro Catedral, disfrutando de las vistas y deslizandonos por la nieve.
+              <br/>Alojados en un acogedor hotel con vistas al lago "Nahuel Huapi",
+              realizamos una excursión por el "Circuito chico", rodeando bellos lagos y cruzando verdes bosques
+              </p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="image-container col-md-3">
+    <div id="carouselExampleSlidesOnly2" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div *ngFor="let photo of photos; let i = index" [class]="i === 0 ? 'carousel-item active' : 'carousel-item'">
+          <img class="d-block w-100 carousel-img" [src]="photo.src" [alt]="photo.alt" />
+          <div class="card-body">
+            <hr/>
+            <h2 class="card-title text-center">Tafi del Valle</h2>
+            <p class="card-text descripcion">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur reiciendis ipsum at dolores delectus nesciunt! Ipsa iusto hic numquam ipsum. Odit reprehenderit placeat minus commodi deleniti maxime illum hic dolore.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="image-container col-md-3">
+    <div id="carouselExampleSlidesOnly3" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div *ngFor="let photo3 of photos3; let i = index" [class]="i === 0 ? 'carousel-item active' : 'carousel-item'">
+          <img class="d-block w-100 carousel-img" [src]="photo3.src" [alt]="photo3.alt" />
+          <div class="card-body">
+            <hr/>
+            <h2 class="card-title text-center">Estancia "La Magdalena"</h2>
+            <p class="card-text descripcion">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga perspiciatis animi earum saepe sequi quia accusamus hic porro asperiores neque, optio rem necessitatibus eaque! Quia molestiae natus vel ex qui.  
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
